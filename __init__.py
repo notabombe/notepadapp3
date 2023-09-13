@@ -1,4 +1,3 @@
-```python
 from flask import Flask
 from .config import Config
 from .models import db
@@ -15,4 +14,3 @@ def create_app():
     app.register_blueprint(notepad_blueprint)
 
     return app
-```
